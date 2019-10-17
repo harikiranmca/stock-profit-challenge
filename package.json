@@ -1,0 +1,14 @@
+{
+  "name": "stock-profit-challenge",
+  "version": "1.0.0",
+  "description": "Stock profit challenge",
+  "scripts": {
+    "test": "nyc --reporter=text --reporter=lcov --check-coverage --branches 100 --statements 100 --lines 100 mocha"
+  },
+  "author": "Harikiran Challa",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1"
+  }
+}
